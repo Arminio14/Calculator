@@ -1,0 +1,152 @@
+button {
+    color: black;
+    border-radius: 20px;
+    font-weight: 200;
+    font-size: 16px;
+    border: 2px solid black;
+    width: 60px;
+    height: 45px;
+    margin: 1px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    transition: transform 0.2s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+#calculatorInput {
+    align-content: center;
+    font-size: 18px;
+    padding: 12px 24px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 14px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: green;
+}
+#ergebnisAnzeige {
+    align-content: center;
+    font-size: 18px;
+    padding: 12px 24px;
+    margin-left: 14px;
+    margin-right: 48px;
+    margin-bottom: 14px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: green;
+}
+
+#Background {
+    background-color: rgb(71, 63, 63);
+    width: 300px;
+    height: 510px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+#back {
+    font-size: 18px;
+}
+.left{
+    margin-left: 20.5px;
+}
+#btn²{
+    font-size: large;
+}
+.gray{
+    background-color: gray;
+}
+.blue{
+    background-color: blue;
+}
+#btn0{
+    background-color: gray;
+}
+#btn1{
+    background-color: gray;
+}
+#btn4{
+    background-color: gray;
+}
+#btn7{
+    background-color: gray;
+}
+#btnπ{
+    background-color: blue;
+}
+#btnsin{
+    background-color: blue;
+}
+#btnasin{
+    background-color: blue;
+}
+#btnpunkt{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+#BothBoxes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#ergebnisSammlung{
+    background-color: rgb(71, 63, 63);
+    width: 300px;
+    height: 520px;
+    margin: 20px 20px 20px 0;
+    border-radius: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+#history {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+.history-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    word-break: break-all;
+}
+h3{
+    text-align: center;
+}
+#clearHistory{
+    color: black;
+    border-radius: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    border: 2px solid black;
+    width: 250px;
+    height: 65px;
+    margin: 5px;
+    margin-bottom: 1px;
+    background-color: red;
+}
